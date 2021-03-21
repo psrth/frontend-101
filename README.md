@@ -3,3 +3,5 @@
 ## Set A
 
 **1. Trippy Grid**
+[x] Implemented three different breakpoints
+[x] 
