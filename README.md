@@ -3,10 +3,10 @@
 ## Set A
 
 **1. Trippy Grid**
-[x] Implemented three different breakpoints
+- Implemented three different breakpoints
 
 **2. Perspective Button**
-[x] Implemented persepective button
+- Implemented persepective button
 
 **3. iPhone X**
-[x] Implemented three different breakpoints
+- iPhone X design implemented in CSS
