@@ -3,7 +3,7 @@
     border-radius: 40px;
     height: 600px;
     width: 300px;
-    border: 2px solid rgba(43, 43, 43, 0.74);
+    border: 2px solid rgba(43, 43, 43, 0.445);
     background: rgb(221, 221, 221);
 }
 
@@ -13,8 +13,9 @@
     border-radius: 40px;
     height: 590px;
     width: 289px;
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 45%, rgba(66,66,66,1) 100%);  
+    /* background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 45%, rgba(66,66,66,1) 100%);   */
+    background: linear-gradient(rgb(36, 36, 36), rgb(32, 32, 32));
 }
 
 .screen {
@@ -43,7 +44,7 @@
 }
 
 .circle-sm {
-    margin-top: 5px;
+    margin-top: 6px;
     margin-left: 10px;
     height: 12px;
     width: 12px;
@@ -68,6 +69,16 @@
     height: 12px;
     width: 12px;
     background-color: rgba(30, 30, 255, 0.37);
+    border-radius: 30px;
+    z-index: 10;
+}
+
+.circle-lg {
+    margin-top: 3px;
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(44, 44, 44);
     border-radius: 30px;
     z-index: 10;
 }
