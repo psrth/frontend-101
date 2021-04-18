@@ -1,12 +1,17 @@
-# DVM Frontend-101 Tasks
+# DVM Frontend-101
 
 ## Set A
+- [x] A1: Trippy/Responsive CSS Grid
+- [x] A3: 3D Button
+- [x] A4: iPhone X — CSS Render
+- [x] A5: DVM Logo — Animated SVG
 
-**1. Trippy Grid**
-- Implemented three different breakpoints
-
-**2. Perspective Button**
-- Implemented persepective button
-
-**3. iPhone X**
-- iPhone X design implemented in CSS
+## Set B
+- [x] B1A: Clock — Vanilla JS
+- [x] B1B: Clock — Canvas API
+- [ ] B2: Multiple Item Select (Shift)
+- [ ] B3: To-Do List (Local Storage)
+- [ ] B4: Smooth Card Navigation
+- [x] B5: Chrome Extension
+- [ ] B6: GitHub Profile Fetcher
+- [ ] B7: 2048 Game
