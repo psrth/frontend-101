@@ -5,17 +5,13 @@ const second = document.querySelector('.second');
 function refreshClock() {
     const TIME = new Date();
     
-    const seconds = TIME.getSeconds();
-    const minutes = TIME.getMinutes();
-    const hours = TIME.getHours();
-
-    const secondsDegree = ((seconds / 60) * 360) + 90;
+    const secondsDegree = TIME.getSeconds() * 6 + 90;
     second.style.transform = `rotate(${secondsDegree}deg)`
 
-    const minutesDegree = ((minutes / 60) * 360) + 90;
+    const minutesDegree = TIME.getMinutes() * 6 + 90;
     minute.style.transform = `rotate(${minutesDegree}deg)`
 
-    const hoursDegree = ((hours / 60) * 360) + 90;
+    const hoursDegree = TIME.getHours() * 6 + 90;
     hour.style.transform = `rotate(${hoursDegree}deg)`
 }
 
